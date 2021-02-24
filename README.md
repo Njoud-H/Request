@@ -6,8 +6,7 @@ It also includes a range of fields, including translation, programming, designin
 
 The service offers an integrated environment for both professionals (freelancers) and there clintes , mainly with adding a ticket as clintts seeking for a freelancer, the freelacer submitting a proposal as comment on that ticket after clinte accept the freelancer propsal the clint can rate the service .
 
-
-
+This website has been developed in partial fulfillment of the requirements for the Second Project of **Software Engineering Immersive Course**, that provided by **_General Assembly Middle East_ & _Misk Academy_**.
 
 
 ## Wireframes
