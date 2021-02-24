@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="singup.css">
+<!--     <link rel="stylesheet" href="/css/singup.css"> -->  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css	">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    
+    <title>Sign Up </title>
+</head>
+<body>
+
+    <div class="container d-flex justify-content-center">
+        <div class="row my-5">
+            <div class="col-md-6 text-left text-white lcol">
+                <div class="greeting">
+                    <p>Welcome to <span class="txt">Request</span></p>
+                    <hr/>
+                </div>
+                <div class="footer">
+                    <div class="socials d-flex flex-row justify-content-between text-white">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 rcol">
+                    <form action="/users" class="sign-up" method="POST">
+
+                         <div class = "from-all">
+                    <h2 class="heading mb-4">Sign up</h2>
+                    
+                    <div class="form-2"> 
+                        <input class="signup-name" type="text" name="name" placeholder="Name" class="form-control"  required> 
+                    </div>
+
+                    <div class="form-2"> 
+                        <input class="signup-email" type="email" name="email" class="form-control" placeholder="Email" required> 
+                    </div>
+
+                    <input class="form-choose" type="radio" id="seeker" name="type" value="0">
+                    <label for="seeker"> Seeker</label>
+                    <input  class="form-choose" type="radio" id="freelancer" name="type" value="1">
+                    <label for="freelancer"> Freelancer</label>
+ 
+
+                    <div class="form-group fone mt-2"> 
+                        <input class="signup-pass" type="password"name="password" class="form-control" placeholder="Password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required> 
+                    </div> 
+                    <input class="started" type="submit" value="Get Satrted Now" class="btn btn-success mt-5">
+            
+                </form> 
+                
+                <h6 class="existing">Existing user? <a herf="">Log in</a></h6>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="./index.js"></script>
+</html>
+

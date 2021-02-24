@@ -1,0 +1,209 @@
+.header img {
+    float: left;
+    width: 53px;
+    height: 53px;
+  }
+  /* ==== User Name Style ====  */
+  .header h1 {
+    position: relative;
+    top: 18px;
+    bottom: 50px;
+    left: 10px;
+  }
+  
+  .not-logged {
+      margin-left: 22%;
+      margin-top: 15%;
+      text-align: center;
+      color: #ce1f00d7;
+      background: #fcfcfa;
+         width: 700px;
+    height:120%;
+    padding: 20px;
+    border: 1px solid #ce1f00d7;
+    text-decoration: none;
+  }
+  .not-logged h2{
+    margin-top: none;
+  display: inline-block;
+  }
+  .not-logged svg {
+    display: table;
+    padding: 7px 10px;
+    margin-left: 46%;
+  }
+  .not-logged a{
+  font-size: 23px;
+  color: #bb1f03d7;
+  font-weight:bold;
+  font-style: italic;
+  }
+  .not-logged a:hover {
+    color: #0003ced7
+  }
+  
+  /* ==== NAV Button Style ==== */
+  /* >>>>>>>>>> Left with Centralization */
+  .button {
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #008891;
+    padding: 5.5px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 8%;
+    font-size: 12px;
+    margin: 10px 2px;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    margin-left: 35%;
+  }
+
+  #two {
+    margin-left: 20px;
+    display: inline-block;
+  }
+  #three {
+    margin-left: 20px;
+    display: inline-block;
+  }
+  /* ==== NAV Button Hover ==== */
+  .button:hover {
+    background-color: #008891; 
+        color: white;
+      opacity: 1
+  }
+  /* Active Button */
+  .button:active {
+    background-color: #008891;
+    color: white;
+  }
+  button:focus{
+    background-color: #008891;
+    color: white;
+  }
+  /* Hides The Content */
+  .content {
+      text-align: left;
+      margin-left: 39%;
+      display: none;
+  }
+  
+  body {
+  background:#fff;
+  color: #00587a;
+  }
+  
+  .form-control:focus {
+  box-shadow: none;
+  border-color: #BA68C8
+  }
+  
+  .profile-button {
+  background: #BA68C8;
+  box-shadow: none;
+  border: none
+  }
+  
+  .profile-button:hover {
+  background: #682773
+  }
+  
+  .profile-button:focus {
+  background: #682773;
+  box-shadow: none
+  }
+  
+  .profile-button:active {
+  background: #682773;
+  box-shadow: none
+  }
+  
+  .back:hover {
+  color: #682773;
+  cursor: pointer
+  }
+  .profile-pic {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  }
+  
+  .file-upload {
+  display: none;
+  }
+  .circle {
+  border-radius: 1000px !important;
+  overflow: hidden;
+  width: 128px;
+  height: 128px;
+  border: 8px solid rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 72px;
+  }
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  .p-image {
+  position: absolute;
+  top: 167px;
+  right: 30px;
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  }
+  .upload-button {
+  font-size: 1.2em;
+  }
+  
+  .upload-button:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+  color: #999;
+  }
+
+  .edit {
+    font-size: 18px;
+    color: #0f3057;
+    font-weight:bolder;
+    }
+    .edit:hover {
+        color: #0003ced7
+      }
+
+      .not-logged {
+        margin-left: 22%;
+        margin-top: 6%;
+        text-align: center;
+        color: #ce1f00d7;
+        background: #fcfcfa;
+           width: 700px;
+      height:120%;
+      padding: 20px;
+      border: 1px solid #ce1f00d7;
+      text-decoration: none;
+    }
+    .not-logged h2{
+      margin-top: none;
+  display: inline-block;
+    }
+    .not-logged svg {
+      display: table;
+      padding: 7px 10px;
+      margin-left: 46%;
+    }
+  .not-logged a{
+  font-size: 23px;
+  color: #bb1f03d7;
+  font-weight:bold;
+  font-style: italic;
+  }
+  .not-logged a:hover {
+      color: #0003ced7
+    }
+  
+    
+  

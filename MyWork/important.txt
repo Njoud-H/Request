@@ -1,0 +1,10 @@
+
+git remote add upstream
+git pull upstream
+----
+switch to branch
+git add .
+git commit 
+git push
+----
+git merge origin/branch

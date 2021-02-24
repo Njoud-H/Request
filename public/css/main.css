@@ -1,0 +1,269 @@
+.flex{
+    display:flex;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+/* Header */
+
+body #header{
+  color: white; 
+  width: 100%;
+  background-color: #0f3057;
+  height: 10vh;
+  align-items: center;
+
+}
+
+body #header #logo-bar{
+    flex-grow: 1;
+}
+
+
+body #header #logo{
+ margin: 60px;
+ font-size: 3vw;
+ font-style: bold;
+}
+
+body #header #profile{
+flex-grow: 2;
+flex-direction:  row-reverse;
+}
+
+body #header #profile #name-profile{
+
+ margin: 10px;
+}
+
+
+body #header #profile .dropdown img{
+margin-right: 20px;
+width: 60px;
+height: 60px;
+border-radius: 100%;
+border: 2px solid white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -60px;
+  }
+
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+background-color: #0f3057;
+color:white;
+}
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+
+
+/*       */
+
+/* Section */
+
+/* Section Menu */
+body #section{
+    margin-top: 50px;
+    width: 100%;
+    height: 700px;
+    color: white; 
+}
+body #section #section-menu{
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 200px;
+    align-items: center;
+    background-color: #0f3057;
+}
+
+body #section #section-menu .category{
+    flex-grow: 1;
+    width: 90%;
+    max-width: 150px;
+    margin: 5px;
+    max-height: 5%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid ;
+    background-color:#0f3057;
+}
+
+body #section #section-menu .category:hover{
+    background-color: white;
+}
+
+body #section #section-menu .category a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:white;
+    padding-top: 10%;
+}
+
+body #section #section-menu .category a:hover{
+    color:#0f3057;
+}
+
+
+
+/*       */
+
+/* Section Tickets */
+
+body #section #section-tikcets{
+    flex-grow: 3;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
+body #section #section-tikcets #btns-bar{
+height: 50px;
+width: 90%;
+text-align: start;
+
+}
+body #section #section-tikcets #btns-bar a{
+    margin: 10px 10px 10px 0px;
+    background-color: #0f3057;
+    color:white;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    border: 2px solid #0f3057;
+}
+
+body #section #section-tikcets #btns-bar a:hover{
+    color:#0f3057;
+    background-color: white;
+}
+body #section #show-tickets{
+width: 90%;
+flex-grow: 1;
+background-color:white;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+body #section #show-tickets #ticket-link{
+text-decoration: none;
+color:white;
+width: 100%;
+}
+
+body #section #show-tickets #ticket-card{
+    margin: 20px;
+    background-color: #284b75;
+    color: white;
+    border: 2px solid black;
+}
+
+body #section #show-tickets #ticket-card:hover{
+   border: 2px solid rgb(185, 1, 1);
+   cursor: pointer;
+}
+
+body #section #show-tickets #ticket-card #ticket-img{
+ width: 45%;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(185, 1, 1);
+ max-width: 150px;
+ min-width: 130px;
+}
+
+
+body #section #show-tickets #ticket-card img{
+     width: 100%;
+     height: 100%;
+
+   }
+
+
+
+body #section #show-tickets #ticket-info{
+width: 100%;
+flex-direction: column;
+text-align: start;
+margin: 10px;
+}
+
+body #section #show-tickets #ticket-info #card-subject{
+    font-size: 1em;
+    flex-grow: 2;
+    font-weight: bold;
+}
+
+body #section #show-tickets #ticket-info #card-by{
+    font-size: 0.8em;
+    flex-grow: 1;
+    
+}
+
+body #section #show-tickets #ticket-info #card-state{
+    font-size: 0.7em;
+    flex-grow: 1;
+    
+}
+
+body #section #show-tickets #ticket-info #card-time{
+
+    text-align: end;
+    font-size: 0.5em;
+    flex-grow: 1;
+    
+}
+
+
+
+
+/*       */
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .footer h4{
+    font-size: 1em;
+  }
+  .footer p{
+    font-size: 0.7em;
+  }

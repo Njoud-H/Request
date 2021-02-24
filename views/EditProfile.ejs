@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css	">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/EditProfile.css">
+    <title>Request</title>
+</head>
+<body>
+    <div class="header">
+       
+        <!-- ==== Name of User ==== -->
+        <% if (user && user.email) { %>
+    <hr>
+         
+      </div>
+    
+      <div class="container rounded bg-white mt-5">
+        <div class="row">
+            <div class="col-md-4 border-right">
+                <div class="d-flex flex-column align-items-center text-center p-3 py-5"> 
+                  <form action="/EditProfile" method="POST">
+                
+                  <img  class="img-pro"  src=<%= user.img %> alt="Profile Image">
+               
+              
+                  <div>  <i class="material-icons">&#xe439;</i></div>
+                  <input type="text" class="form-control content img-e" placeholder="Enter your img link " name ="img">
+                  
+                  
+                  
+                  <div class="font-weight-bold"><%=user.name%></div><div class="text-black-50"><%=user.email%></div>
+                
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="d-flex flex-row align-items-center back"><i ></i>
+                          <h6 class="back-to-home">Back to home</h6>
+                        </div>
+                        <h6 class="text-right">Edit Profile</h6>
+                      </div>
+               
+                   
+                    <div class="row mt-2">
+                        <div class="col-md-6">
+                          <label class="labels">Name : </label>
+                        <input type="text" class="form-control" placeholder="name" name ="name" value="<%=user.name%>"></div>  
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                          <label class="labels">Email : </label>
+                          <input type="text" class="form-control" 
+                          name ="email"placeholder="Email" value="<%=user.email%>"></div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-md-6">
+                        <label class="labels">Password : </label>
+                      
+                        <input type="password" id="password" class="form-control" name="password"
+                         placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" >
+                        </div>
+                        <div class="col-md-6">
+                          <label class="labels">Confirm Password : 
+                          </label>
+                          <input type="password"  class="form-control" name="cpassword" id="cpassword"
+                          placeholder="Confirm Password">
+                           <span id='message'></span>
+                         
+                          </div>
+                         <div class="col-md-6">
+                          <label class="labels">Bio : </label>
+                          <input type="text" 
+                          name ="bio" class="form-control"
+                           value="<%=user.bio%>" placeholder="User Bio"></div>
+                           <div class="col-md-6">
+                            <label class="labels">Heading : </label>
+                            <input type="text" 
+                            name ="heading" class="form-control"
+                             value="<%=user.heading%>" placeholder="heading"></div>
+                  </div>
+                    <div class="mt-5 text-right"><input class="btn btn-primary profile-button" type="submit" value="Save Profile"></div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% } else { %>
+      You're not logged in. 
+    </h2>
+      <a href="/logIn">Log in</a>
+    <% } %>
+    
+  
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="./jquery-3.5.1.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js	"></script>
+    <script src="./SeekerProfile.js"></script>
+</html>
