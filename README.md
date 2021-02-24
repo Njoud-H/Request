@@ -22,8 +22,8 @@ First Day | Second Day | Third Day | Fourth Day | Final Day
  **To do List**  <br> - Brainstorming session (All) <br>  <br> - Build wireframes (All)<br> <br> -Build structure [controllers , Models, Views ,CSS files ] (All)<br>  <br> - start logic side :<br> <br> - Login Page (Asim).<br> <br> - SignUp Page (Manal).<br> <br> - Landing Page (Njoud).<br> | **To do List** <br> - User profile (Njoud) <br> <br> - Create teckites(seeker) & Comment(freelancer)  (Asim) <br><br> - Complete Sign Up Page (Manal).<br> |**To do List**  <br> - Flitter tickets by category (Manal) <br> <br> - Show All seeker ticket (Asim) <br> <br> - Show ticket page logic side (Asim)<br> |  **To do List**  <br> - Popup window for feedback(Njoud)<br> <br> - Edit Profile (Manal)<br> <br> - Accept & Done button in seeker side (Asim)<br> |  **To do List**  <br> - Improvement & Styleing (All)<br>
 
 
-## Website link 
+## Website Live-Demo 
 [https://project2-request.herokuapp.com/]
 
-## Created By
+## Developed By
 **Manal Alghamdi** & **Asim AL Luhaybi** &  **Njoud Haddad**
